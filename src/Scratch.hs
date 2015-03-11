@@ -1,6 +1,6 @@
 {-# Language GeneralizedNewtypeDeriving #-}
 
-module Main where
+module Scratch where
 
 import Control.Applicative hiding (ZipList)
 
@@ -51,7 +51,7 @@ getEmp = Employee <$> getName <*> getPhone
 --  Employee <$> getName <*> getPhone
 -- (Employee . getName) <*> getPhone
 -- \e -> ((Employee . getName) e) (getPhone e)
--- (Empoyee name) (phone) 
+-- (Empoyee name) (phone)
 
 
 ex01 :: Employee
