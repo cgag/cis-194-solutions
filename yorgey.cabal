@@ -25,6 +25,7 @@ library
                      , HW5.Parser
                      , HW6
                      , HW7.HW7
+                     , HW7.Buffer
                      , HW7.Sized
                      , HW7.Scrabble
   -- other-modules:       
