@@ -24,10 +24,14 @@ library
                      , HW5.StackVM
                      , HW5.Parser
                      , HW6
+                     , HW7.HW7
+                     , HW7.Sized
+                     , HW7.Scrabble
   -- other-modules:       
   -- other-extensions:    
   build-depends:       base >=4.7 && <4.8
                      , containers
+                     , mtl
   hs-source-dirs:      src
   default-language:    Haskell2010
   ghc-options: -Wall
@@ -46,5 +50,8 @@ test-suite test
     , tasty >= 0.7 
     , tasty-hunit >= 0.9
     , tasty-hspec >= 1.1
+    , tasty-quickcheck
+    , hspec
+    , QuickCheck
     , containers
     , yorgey

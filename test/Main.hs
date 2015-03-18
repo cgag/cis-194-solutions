@@ -4,11 +4,12 @@ import HW3Test (hw3Tests)
 import HW4Test (hw4Tests)
 import HW5Test (hw5Tests)
 import HW6Test (hw6Tests)
+import HW7Test (hw7Tests)
 
 import Test.Tasty
 
 -- TODO: eliminate all the duplication in these hwNTests fns
 main :: IO ()
 main = do
-  testTrees <- sequence [hw3Tests, hw4Tests, hw5Tests, hw6Tests]
+  testTrees <- sequence [hw3Tests, hw4Tests, hw5Tests, hw6Tests, hw7Tests]
   defaultMain (testGroup "All Tests" testTrees)

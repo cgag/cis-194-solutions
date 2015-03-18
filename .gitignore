@@ -17,4 +17,6 @@ cabal.sandbox.config
 *.prof
 *.aux
 *.hp
+codex.tags
+hscope.out
 TAGS
