@@ -28,6 +28,10 @@ library
                      , HW7.Buffer
                      , HW7.Sized
                      , HW7.Scrabble
+                     , HW8.Employee
+                     , HW8.Party
+                     , HW10.AParser
+
   -- other-modules:       
   -- other-extensions:    
   build-depends:       base >=4.7 && <4.8

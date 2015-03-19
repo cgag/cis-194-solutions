@@ -62,8 +62,3 @@ hspecTests =
           (Append (Score 23)
                   (Single (Score 9)  "yay ")
                   (Single (Score 14) "haskell!"))
-
-    describe "mergeSort" $
-      it "mergeSort xs == sort xs" $
-        property $ \(xs :: [Int]) ->
-          mergeSort xs == sort xs
