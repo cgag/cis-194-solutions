@@ -8,6 +8,7 @@ import           HW7Test    (hw7Tests)
 import           HW8Test    (hw8Tests)
 import           HW10Test   (hw10Tests)
 import           HW11Test   (hw11Tests)
+import           HW12Test   (hw12Tests)
 
 import           Test.Tasty
 
@@ -22,5 +23,6 @@ main = do
                         , hw8Tests
                         , hw10Tests
                         , hw11Tests
+                        , hw12Tests
                         ]
   defaultMain (testGroup "All Tests" testTrees)
