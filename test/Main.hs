@@ -1,14 +1,15 @@
 module Main where
 
-import HW3Test (hw3Tests)
-import HW4Test (hw4Tests)
-import HW5Test (hw5Tests)
-import HW6Test (hw6Tests)
-import HW7Test (hw7Tests)
-import HW8Test (hw8Tests)
-import HW10Test (hw10Tests)
+import           HW3Test    (hw3Tests)
+import           HW4Test    (hw4Tests)
+import           HW5Test    (hw5Tests)
+import           HW6Test    (hw6Tests)
+import           HW7Test    (hw7Tests)
+import           HW8Test    (hw8Tests)
+import           HW10Test   (hw10Tests)
+import           HW11Test   (hw11Tests)
 
-import Test.Tasty
+import           Test.Tasty
 
 -- TODO: eliminate all the duplication in these hwNTests fns
 main :: IO ()
@@ -20,5 +21,6 @@ main = do
                         , hw7Tests
                         , hw8Tests
                         , hw10Tests
+                        , hw11Tests
                         ]
   defaultMain (testGroup "All Tests" testTrees)

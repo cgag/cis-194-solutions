@@ -31,6 +31,8 @@ library
                      , HW8.Employee
                      , HW8.Party
                      , HW10.AParser
+                     , HW11.AParser
+                     , HW11.SExpr
 
   -- other-modules:       
   -- other-extensions:    
